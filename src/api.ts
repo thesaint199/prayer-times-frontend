@@ -1,4 +1,3 @@
-// src/api.ts
 
 export interface PrayerResponse {
   env: string;

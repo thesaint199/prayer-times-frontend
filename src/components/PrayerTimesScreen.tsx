@@ -1,4 +1,4 @@
-// src/components/PrayerTimesScreen.tsx
+
 import React, { useState } from 'react';
 import { fetchPrayerTimes, PrayerResponse } from '../api';
 
