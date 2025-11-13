@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
-import { fetchPrayerTimes, PrayerResponse } from '../api';
+import { fetchPrayerTimes } from '../api';
+import type { PrayerResponse } from '../api'
 
 export const PrayerTimesScreen: React.FC = () => {
   const [city, setCity] = useState('');
